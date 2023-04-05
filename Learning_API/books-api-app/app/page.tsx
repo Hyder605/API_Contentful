@@ -96,23 +96,23 @@ export default function Home() {
         </a>
 
         <a
-          href="/Parallel DataFetching"
+          href="/Parallel"
           className={styles.card}
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Parallel <span>-&gt;</span>
+            Parallel  DataFetching <span>-&gt;</span>
           </h2>
           <p className={inter.className}>Explore the Next.js 13 playground.</p>
         </a>
 
         <a
-          href="/Sequential DataFetching"
+          href="/Sequential"
           className={styles.card}
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Sequential <span>-&gt;</span>
+            Sequential DataFetching <span>-&gt;</span>
           </h2>
           <p className={inter.className}>Explore the Next.js 13 playground.</p>
         </a>

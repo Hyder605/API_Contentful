@@ -16,7 +16,7 @@ export default function ClientPage() {
     if(isLoading)
      return (
     <div>
-    Data is Loading
+    Data is Loading.Please wait....
     </div>
      )
     return (
