@@ -1,0 +1,33 @@
+Sequential Data Feteching: 
+    one data can be fetched at one time
+    time consuming
+    one order ate one time
+    can't make a 2nd order until the first one is completed/resolved
+
+Parallel Data Feteching:
+    multiple data can be fetched at one time
+    Musch Faster
+    e.g: ordering multiple dishes at resturant and getting them all the dishes at one time
+
+
+Static Rendering:
+    -"NO matter how many times you refreshed the page the content will remain same in Static Rendering.<br/>
+     -By Default NextJS rendering is Static"
+     -Static rendering refers to the process of pre-rendering a web page's HTML and CSS content during the build process, instead of rendering it dynamically at runtime.
+     -"One of the main advantages of static rendering is that it allows for better search engine optimization (SEO) 
+        because search engines can easily crawl and index the content of the website. 
+            Additionally, static rendering can reduce the load on the server, as it does not 
+                have to generate the HTML and CSS on every request."
+    
+Server_Dynamic Rendering:
+    -"Everytime user visit/refresh the page ,api will be called and rendered on every call.
+    -Api will fetch on server.
+    ```cache: 'no-store' is a setting that instructs the browser not to cache the response 
+       to the request. This means that every time the same request is made, the browser will 
+       always fetch a fresh copy of the response from the server, instead of using a cached copy.```
+
+
+Client-side rendering:
+    -"Client-side rendering-involves rendering the HTML and CSS content of a web page in the user's browser using JavaScript.
+     This means that the server only sends the necessary data to the browser, 
+     which then renders the content."
