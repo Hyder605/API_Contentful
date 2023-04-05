@@ -28,6 +28,9 @@ Server_Dynamic Rendering:
 
 
 Client-side rendering:
+    - Write "use client"  at the top of the page for client side rendering.
+    -"Api will call on everytime the request is sent but this time on client side.
+    -"install "swr" library also "npm i swr"
     -"Client-side rendering-involves rendering the HTML and CSS content of a web page in the user's browser using JavaScript.
      This means that the server only sends the necessary data to the browser, 
      which then renders the content."

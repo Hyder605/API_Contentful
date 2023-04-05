@@ -44,8 +44,8 @@ export default function Home() {
           <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
         </div>
       </div>
-      <h2>NO matter how many times you refreshed the page the content will remain same in Static Rendering.By Default NextJS rendering.
-      </h2>
+      <h3>NO matter how many times you refreshed the page the content will remain same in Static Rendering.By Default NextJS rendering is Static.
+      </h3>
 
       <div className={styles.grid}>
         <a
@@ -83,6 +83,40 @@ export default function Home() {
           </h2>
           <p className={inter.className}>Explore the Next.js 13 playground.</p>
         </a>
+
+        <a
+          href="/ClientSide"
+          className={styles.card}
+          rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+            Client_Side_Rendering <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>Explore the Next.js 13 playground.</p>
+        </a>
+
+        <a
+          href="/Parallel DataFetching"
+          className={styles.card}
+          rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+            Parallel <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>Explore the Next.js 13 playground.</p>
+        </a>
+
+        <a
+          href="/Sequential DataFetching"
+          className={styles.card}
+          rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+            Sequential <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>Explore the Next.js 13 playground.</p>
+        </a>
+
 
         
       </div>
