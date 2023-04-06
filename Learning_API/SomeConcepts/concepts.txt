@@ -9,6 +9,7 @@ Parallel Data Feteching:
     Musch Faster
     e.g: ordering multiple dishes at resturant and getting them all the dishes at one time
 
+************>Server Side Rendering(SSR)----->1.Static 2.Dynamic
 
 Static Rendering:
     -"NO matter how many times you refreshed the page the content will remain same in Static Rendering.<br/>
