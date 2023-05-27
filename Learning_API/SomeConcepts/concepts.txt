@@ -9,6 +9,7 @@ Parallel Data Feteching:
     Musch Faster
     e.g: ordering multiple dishes at resturant and getting them all the dishes at one time
 
+************>Server Side Rendering(SSR)----->1.Static 2.Dynamic
 
 Static Rendering:
     -"NO matter how many times you refreshed the page the content will remain same in Static Rendering.<br/>
@@ -34,3 +35,12 @@ Client-side rendering:
     -"Client-side rendering-involves rendering the HTML and CSS content of a web page in the user's browser using JavaScript.
      This means that the server only sends the necessary data to the browser, 
      which then renders the content."
+
+
+CDN vs Edge Computing:
+    Content Delivery Networks (CDNs) are like a network of warehouses that store and deliver digital content, such as web pages, images, and videos, to users from        servers that are closer to them. This makes the content load faster and more efficiently, like getting a package from a nearby local store instead of waiting for it    to be shipped from a distant warehouse.
+
+  On the other hand, Edge Computing is like having a mini-computer right at the place where data is generated, like having a smart device that can process data and run    applications locally, without needing to send all the data to a central computer in a faraway location. This allows for faster processing and quicker response         times, similar to making decisions on the spot rather than waiting for instructions from a remote location.
+    
+    CDNs focus on delivering content faster by storing copies of content(static pages) in different locations, while Edge Computing focuses on processing data closer to where it's generated for quicker responses.
+    
