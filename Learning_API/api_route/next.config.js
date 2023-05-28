@@ -4,8 +4,8 @@ const nextConfig = {
     appDir: true,
   },
   env: {
-    SPACE_ID: "v46ls9yp40v7",
-    CONTENTFUL_ACCESS_KEY: "Xkqz0ZthSTyOUR_NdIll4v0b4sEZqjpkUVrdhVnRCkk"
+    SPACE_ID: "Your contentful space Id",
+    CONTENTFUL_ACCESS_KEY: "Your API KEY"
   },
 }
 
